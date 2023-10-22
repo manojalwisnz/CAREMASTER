@@ -1,0 +1,6 @@
+module Pods_CareMaster {
+  umbrella header "Pods-CareMaster-umbrella.h"
+
+  export *
+  module * { export * }
+}
