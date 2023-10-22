@@ -1,6 +1,6 @@
 # CAREMASTER
 
-# React Native Authentication App
+# React Native Sample App for CareMaster
 
 ## Introduction
 
@@ -22,10 +22,11 @@ This is a simple React Native mobile app that demonstrates basic authentication 
 - JavaScript
 - TypeScript
 - StyleSheet for styling
+- Jest
 
 ## Installation
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/ReactNativeAuthentication.git
+   git clone https://github.com/manojalwisnz/CAREMASTER.git
