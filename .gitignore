@@ -4,4 +4,5 @@ Pods/
 .vscode/
 ios/Build/
 android/build/
-./ios/Pods/hermes-engine/
+ios/Pods/hermes-engine/
+.DS_Store
