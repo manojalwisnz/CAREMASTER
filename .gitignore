@@ -1,5 +1,5 @@
 node_modules/
-Pods/
+ios/Pods/
 .idea/
 .vscode/
 ios/Build/
