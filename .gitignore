@@ -4,3 +4,4 @@ Pods/
 .vscode/
 ios/Build/
 android/build/
+./ios/Pods/hermes-engine/
