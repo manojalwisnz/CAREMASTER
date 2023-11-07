@@ -30,10 +30,17 @@ export default StyleSheet.create({
     marginBottom: 10,
   },
   loginButton: {
-    backgroundColor: 'blue', // Customize the button background color
+    backgroundColor: 'black', // Customize the button background color
     width: '80%',
+    borderRadius: 5,
   },
   loginButtonText: {
     color: 'white', // Customize the button text color
   },
+  logo: {
+    width: 150, 
+    height: 150,
+    marginTop: -100, 
+    marginBottom: 100
+  }
 });

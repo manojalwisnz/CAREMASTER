@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
-import {View, Text, TextInput, Button} from 'react-native';
+import {View, Text, TextInput, Button, Image} from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
 import styles from '../styles/LoginScreenStyles';
+
+const logoImage = require('../assets/care.jpg');
 
 // Define the LoginScreen component as a functional component
 const LoginScreen: React.FC<{navigation: any}> = ({navigation}) => {
@@ -31,6 +33,7 @@ const LoginScreen: React.FC<{navigation: any}> = ({navigation}) => {
   // Render the user interface of the LoginScreen
   return (
     <View style={styles.container}>
+      <Image source={logoImage} style={styles.logo} />
       <TextInput
         style={styles.input}
         placeholder="Username"
